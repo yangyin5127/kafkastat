@@ -19,7 +19,14 @@ A terminal UI for monitoring Kafka clusters
 ## Build
 
 ```bash
-go build -o kafkastat .
+make build
+```
+
+This injects `Version`, `GitCommit`, and `BuildTime` via `-ldflags` automatically.  
+Verify with:
+
+```bash
+./kafkastat -v
 ```
 
 ## Usage
