@@ -15,12 +15,7 @@ A terminal UI for monitoring Kafka clusters
 - **Dynamic column widths** — sized to content, extra screen space distributed evenly across columns
 - **Resizable panels** — adjust the consumer groups panel height with `[` / `]`
 - **Auto-refresh** — configurable interval (default 5 s)
-
-## Requirements
-
-- Go 1.21+
-- Access to a Kafka broker (Sarama client, no schema registry needed)
-
+ 
 ## Build
 
 ```bash
