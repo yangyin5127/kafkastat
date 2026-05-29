@@ -14,22 +14,17 @@ A terminal UI for monitoring Kafka clusters
 - **Consumer groups** — groups filtered by selected topic; columns: Topic Lag, Health, consume Rate/s, Members, State (colour-coded)
 - **Dynamic column widths** — sized to content, extra screen space distributed evenly across columns
 - **Resizable panels** — adjust the consumer groups panel height with `[` / `]`
-- **Auto-refresh** — configurable interval (default 5 s)
- 
-## Build
+- **Auto-refresh** — configurable interval (default 5 s
+  
 
-```bash
-make build
-```
 
-This injects `Version`, `GitCommit`, and `BuildTime` via `-ldflags` automatically.  
-Verify with:
+
+## Usage
 
 ```bash
 ./kafkastat -v
 ```
 
-## Usage
 
 ```bash
 # Connect to a local broker
